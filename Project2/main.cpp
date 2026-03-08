@@ -54,6 +54,11 @@ int main()
 				cout<<"退出特殊计算功能!"<<endl;
 				continue;
 			}
+			else
+			{
+				cout<<"不可识别的运算指令!"<<endl;
+				continue;
+			}
 		}
 	}
 	return 0;
